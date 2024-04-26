@@ -5,7 +5,7 @@ import { formatPostedDate } from "../../../utils/formatDate";
 
 
 
-const getData = async (id: string) => {
+const getData = async (id) => {
     const res = await fetch(
       `http://localhost:3000/api/post/${id}`,
       {
