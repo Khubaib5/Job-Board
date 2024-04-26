@@ -7,8 +7,7 @@
     "build": "prisma generate && next build",
     "start": "next start",
     "postinstall": "prisma generate",
-    "lint": "next lint",
-   
+    "lint": "next lint"
   },
   "dependencies": {
     "@edgestore/react": "^0.1.6",
