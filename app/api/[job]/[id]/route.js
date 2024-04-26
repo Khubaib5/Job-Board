@@ -1,7 +1,7 @@
 import { prisma } from "../../../../lib/prisma";
 import { NextRequest, NextResponse } from "next/server";
 
-export const GET = async (req, {params})=>{
+export const GET = async ({params})=>{
     const {id} = params
     try {
         const post = await prisma.jobPosting.findUnique({
