@@ -107,7 +107,9 @@ const JobId = async ({params}) => {
           </p>
 
           <div className="mt-4">
-            <button>Apply Now</button>
+          <Button type="submit" fullWidth>
+                Apply 
+              </Button>
           </div>
         </div>
       </div>
